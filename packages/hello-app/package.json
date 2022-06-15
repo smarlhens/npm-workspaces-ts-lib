@@ -1,0 +1,31 @@
+{
+  "name": "@smarlhens/hello-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hello app using hello-esm lib",
+  "homepage": "https://github.com/smarlhens/npm-workspaces-ts-lib#readme",
+  "bugs": {
+    "url": "https://github.com/smarlhens/npm-workspaces-ts-lib/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smarlhens/npm-workspaces-ts-lib.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Samuel MARLHENS",
+    "email": "samuel.marlhens@gmail.com",
+    "url": "https://github.com/smarlhens"
+  },
+  "scripts": {
+    "dev": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@smarlhens/hello-esm": "0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.44",
+    "typescript": "4.7.3"
+  }
+}
