@@ -5,12 +5,11 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build --workspaces --if-present",
     "postinstall": "npm run sort-package-json",
     "lint": "npm run prettier:check",
     "lint-staged": "lint-staged",
-    "precommit": "npm run lint-staged && npm run build",
-    "prepare": "husky install && npm run build",
+    "precommit": "npm run lint-staged && npm run build --workspaces --if-present",
+    "prepare": "husky install && npm run build --workspaces --if-present",
     "prettier:check": "prettier --check ./**/*.{ts,json,yml,md}",
     "prettier:write": "prettier --write ./**/*.{ts,json,yml,md}",
     "sort-package-json": "sort-package-json",
