@@ -24,7 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them :
 
-- [Node.JS](https://nodejs.org/en/download/) **version ^14.16.0 || ^16.0.0 || ^18.0.0**
+- [Node.JS](https://nodejs.org/en/download/) **version ^16.12.0 || ^18.0.0**
 
 ### Installation
 
