@@ -37,7 +37,7 @@ What things you need to install the software and how to install them :
 2. Go into the project directory
 
    ```bash
-   cd /npm-workspaces-ts-lib
+   cd npm-workspaces-ts-lib/
    ```
 
 3. Checkout working branch (_default is `main`_)
